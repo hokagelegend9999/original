@@ -137,7 +137,7 @@ wget -q -O /root/update.sh "https://raw.githubusercontent.com/hokagelegend9999/o
 sleep 2
 ./update.sh
 sleep 5
-rm /root/install_up.sh
+rm /root/update.sh
 rm /opt/.ver
 version_up=$( curl -sS https://raw.githubusercontent.com/hokagelegend9999/ijin/main/versi)
 echo "$version_up" > /opt/.ver
